@@ -5,7 +5,15 @@
 // K = King
 // P = Pawn
 
-import { Board } from "./models"
+import Board from './models.js'
 
-let truc = new Board()
-console.log(truc)
+let board = new Board
+let boardData = board.getBoard()
+
+board.displayBoard(boardData)
+
+board.displayBlackAndWhite()
+
+board.listenerMove()
+console.log(board.getSelectCount())
+console.log(board)
