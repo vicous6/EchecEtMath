@@ -129,3 +129,23 @@ li {
 
     opacity: 0.2;
 }
+#error{
+    font-size:1.6rem;
+    
+    animation-duration: 5.0s;
+    animation-name: displayErrorForAShortTime; 
+    animation-fill-mode: forwards;
+}
+@keyframes displayErrorForAShortTime {
+    0% {
+       opacity:1;
+    }
+    1% {
+       opacity:1;
+    }
+   
+   
+    100% {
+       opacity:0.2;
+    }
+}
