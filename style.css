@@ -1,15 +1,131 @@
-body{
-    background:blue;
+body {
+    background: beige;
+    width:80%;
+    margin:0 auto;
 }
-ul{
-    color:red;
-    display:grid;
-    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+.rotate {
+    transform: rotate(180deg);
 }
-li{
-    text-align:center;
-    list-style-type: none;
-    width:100%;
-    height:70px;
+
+ul {
+    color: red;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+p{
     
+     color: transparent;
+}
+li {
+    text-align: center;
+    list-style-type: none;
+    width: 100%;
+    height: 70px;
+
+}
+
+.imagePawnWhite {
+    background: url(images/white-pawn.jpg);
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    margin: 0 auto;
+}
+.imagePawnBlack {
+    background: url(images/black-pawn.jpg);
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    margin: 0 auto;
+}
+.imageRookBlack {
+    background: url(images/black-rook.jpg);
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    margin: 0 auto;
+}
+.imageRookWhite {
+    background: url(images/white-rook.png);
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    margin: 0 auto;
+}
+.imageBishopBlack {
+    background: url(images/black-bishop.jpg);
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    margin: 0 auto;
+}
+.imageBishopWhite {
+    background: url(images/white-bishop.jpg);
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    margin: 0 auto;
+}
+.imageKnightBlack {
+    background: url(images/black-knight.png);
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    margin: 0 auto;
+}
+.imageKnightWhite {
+    background: url(images/white-knight.png);
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    margin: 0 auto;
+}
+.imageQueenWhite {
+    background: url(images/white-queen.jpg);
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    margin: 0 auto;
+}
+.imageQueenBlack {
+    background: url(images/black-queen.png);
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    margin: 0 auto;
+}
+.imageKingWhite {
+    background: url(images/white-king.jpg);
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    margin: 0 auto;
+}
+.imageKingBlack {
+    background: url(images/black-king.jpg);
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    margin: 0 auto;
+}
+.selectedSquare {
+    opacity: 0.6;
+}
+
+.selectedPiece {
+    opacity: 0.6;
+}
+
+.black {
+    background: black;
+}
+
+.white {
+    background: white;
+}
+
+.possibleMoove {
+
+    opacity: 0.2;
 }
